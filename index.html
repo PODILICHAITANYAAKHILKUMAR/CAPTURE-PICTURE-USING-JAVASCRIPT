@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Capture Picture Using JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta https-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js" integrity="sha512-dQIiHSl2hr3NWKKLycPndtpbh5iaHLo6MwrXm7F0FM5e+kL2U16oE9uIwPHUl6fQBeCthiEuV/rzP3MiAB8Vfw==" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="grid-row">
+      <div class="camera-outer">
+        <div id="camera"></div>
+        <input type="button" value="" id="cameraBtn" onclick="takeSnapShot()">
+      </div>
+      <div id="snapShot"></div>
+    </div>
+
+    <script src='script.js'></script>
+  </body>
+</html>
